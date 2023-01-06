@@ -2,11 +2,20 @@
   "name": "weather-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "weather.js.js",
+  "bin": {
+    "weather": "weather.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1"
+  }
 }
